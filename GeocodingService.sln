@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeocodingService", "GeocodingService\GeocodingService.csproj", "{17B81FC5-03CA-44A9-BA10-61054FFECA5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.GeocodingService", "Tests.GeocodingService\Tests.GeocodingService.csproj", "{8F7CE0C3-A886-479D-892F-F846F7C1D420}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5633A44D-1663-4C13-A872-66061870076C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17B81FC5-03CA-44A9-BA10-61054FFECA5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B81FC5-03CA-44A9-BA10-61054FFECA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B81FC5-03CA-44A9-BA10-61054FFECA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B81FC5-03CA-44A9-BA10-61054FFECA5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F7CE0C3-A886-479D-892F-F846F7C1D420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F7CE0C3-A886-479D-892F-F846F7C1D420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F7CE0C3-A886-479D-892F-F846F7C1D420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F7CE0C3-A886-479D-892F-F846F7C1D420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5633A44D-1663-4C13-A872-66061870076C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5633A44D-1663-4C13-A872-66061870076C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5633A44D-1663-4C13-A872-66061870076C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5633A44D-1663-4C13-A872-66061870076C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5EBFC47-ADCB-4A7B-A134-AA08842F9152}
+	EndGlobalSection
+EndGlobal
